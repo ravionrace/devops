@@ -1,0 +1,17 @@
+Cover Letter — AI Engineer, Full Stack
+
+Subject: Internal application — AI Engineer, Full Stack (Req #[ID])
+Dear [Hiring Manager's name],
+I'm writing to express my interest in the AI Engineer – Full Stack position. I've been Lead Architect on our ServiceNow platform since August 2024, and over the past year most of my hands-on work has moved toward building with LLMs. I'd like to bring that work, and my knowledge of how our systems and controls fit together, to your team full time.
+The role asks for agentic AI, LLM integration, RAG and MCP, and full-stack delivery. Here is what I have built in each:
+• Agentic AI in production patterns. I built the ServiceNow ITSM Agent Mesh, a prototype that runs an external model (Claude) inside ServiceNow. A LangGraph coordinator routes requests to Incident, Problem, Change and Catalog agents through 6 MCP tool servers, with pause/resume for human approval.
+• Security a regulated firm needs. Agents act with each user's own permissions through per-user OAuth (JWT bearer), not a shared account. Every write is confirmed by the user and every tool call is audited. Guardrails cover prompt injection, PII redaction and grounding checks.
+• RAG and evaluation. I'm building a retrieval-augmented assistant over knowledge articles that cites its sources and respects each user's access. Both projects ship with unit, integration and eval suites in GitHub Actions.
+• Full stack, end to end. 19+ years across Java/Spring Boot, Python (FastAPI), React/Redux-Observable, MySQL/MongoDB and AWS. The Agent Mesh runs as 8 Docker services on AWS behind nginx/TLS, which I built and deployed myself.
+• AI-assisted engineering on the team today. I mentor our developers on Claude Code and GitHub Copilot, and I led an AI-assisted documentation effort across our custom and global-scoped applications.
+As an internal candidate, I already know our data, integration patterns, change controls and audit expectations. I've delivered inside them at scale, from the Platform Analytics migration (25,000+ reports) to a MID Server integration bridging MQ into ServiceNow. That should shorten the time from idea to an approved, production-ready AI feature.
+I'd welcome 30 minutes to walk you through the Agent Mesh and hear what your team is building. I'm happy to plan a clean handover of my current responsibilities with my manager. Thank you for considering my application.
+Best regards,
+Ravisankar Karunanithy
+Lead Architect — ServiceNow Platform
+(727) 512-8276 | ravionrace@gmail.com | github.com/ravionrace
